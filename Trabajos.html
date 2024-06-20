@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Título de tu página</title>
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <style>
+           .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            height: 400px;
+            margin: 50px 0;
+            border-left: 2px solid #333;
+            border-bottom: 2px solid #333;
+            padding: 10px;
+        }
+        .bar {
+            width: 30%;
+            margin: 0 10px;
+            background-color: lightblue;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            position: relative;
+        }
+        .bar span {
+            position: absolute;
+            bottom: -25px;
+            width: 100%;
+            text-align: center;
+            color: #333;
+        }
+        .bar-value {
+            position: absolute; 
+            top: -30px;
+            width: 100%;
+            text-align: center;
+            color: #333;
+        }
+        .rf{
+            margin: -7px;
+
+        }
+        .card {
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        </style>
+
+
+
+    </head>
+    <body>
+         <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">index</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Personal.html">Personal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trabajos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <div class="container">
+            <h1 class="text-center my-4"><Em>Experiencia</Em></h1>
+            <div class="bar-chart mx-auto">
+                <div class="bar" style="height: 85%;">
+                    <div class="bar-value">85</div>
+                    <span class="rf">Desempeño</span>
+                </div>
+                <div class="bar" style="height: 50%;">
+                    <div class="bar-value">40</div>
+                    <span class="rf">Trabajos Completados</span>
+                </div>
+                <div class="bar" style="height: 20%;">
+                    <div class="bar-value">20</div>
+                    <span class="rf">Experiencia Laboral</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <h1 class="text-center mb-4">Empresas de Programación</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <a href="https://www.google.com" target="_blank" class="d-flex align-items-center justify-content-center h-100">
+                            <img src="https://imgs.search.brave.com/SC6dbPCDxOX_PnvBnC_XKc9HEVy_v9lkaodJOgeOYHQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODBiNTdmY2Q5OTk2/ZTI0YmM0M2M1MWYu/cG5n" class="img-fluid logo" alt="Google">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <a href="https://www.microsoft.com" target="_blank" class="d-flex align-items-center justify-content-center h-100">
+                            <img src="https://imgs.search.brave.com/1AT6itSGDv9Bq-WAbx7nrj4HnF4Jfkmk2UBOTSOdzZw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWct/cHJvZC1jbXMtcnQt/bWljcm9zb2Z0LWNv/bS5ha2FtYWl6ZWQu/bmV0L2Ntcy9hcGkv/YW0vaW1hZ2VGaWxl/RGF0YS9SV0NaRVI_/dmVyPTE0MzMmcT05/MCZtPTYmaD0yMDEm/dz0zNTgmYj0jRkZG/RkZGRkYmbD1mJm89/dCZhaW09dHJ1ZQ" class="img-fluid logo" alt="Microsoft">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <a href="https://www.amazon.com" target="_blank" class="d-flex align-items-center justify-content-center h-100">
+                            <img src="https://imgs.search.brave.com/5tERVA9UDeuWVRzwk0AkqXMyGPlh02JvFSdWdHXf3Og/rs:fit:860:0:0/g:ce/aHR0cHM6Ly92aXN1/YWxoaWVyYXJjaHku/Y28vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTgvMDQvYW1hem9u/LmpwZw" class="img-fluid logo" alt="Amazon">
+                        </a>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h3>Desempeño Laboral Destacado</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Durante mi tiempo en [Nombre de la Empresa], he demostrado consistentemente un alto nivel de rendimiento en todas mis responsabilidades. Algunos de mis logros destacados incluyen:</p>
+                            <ul>
+                                <li>Incremento en la eficiencia del equipo en un 20% mediante la implementación de nuevas metodologías de trabajo.</li>
+                                <li>Desarrollo y ejecución de proyectos clave que han resultado en un aumento significativo de los ingresos.</li>
+                                <li>Colaboración efectiva con diversos departamentos para asegurar el cumplimiento de los objetivos corporativos.</li>
+                            </ul>
+                            <p>Mi dedicación y compromiso con la excelencia han sido reconocidos por mis superiores y compañeros, lo que se ha traducido en un ambiente de trabajo positivo y productivo.</p>
+            
+                            <h4>Galería de Imágenes</h4>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-4">
+                                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 1">
+                                        <div class="card-body">
+                                            <p class="card-text">Descripción de la imagen 1.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4">
+                                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 2">
+                                        <div class="card-body">
+                                            <p class="card-text">Descripción de la imagen 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4">
+                                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 3">
+                                        <div class="card-body">
+                                            <p class="card-text">Descripción de la imagen 3.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-right">
+                            <small>&copy; 2024 [Tu Nombre]</small>
+                        </div>
+                    </div>
+
+
+
+                
+            </div>
+        </div>
+    </body>
+</html>
